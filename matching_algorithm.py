@@ -238,7 +238,7 @@ results = match_patients_to_trials(patient_folder, trial_folder)
 
 print("Results" + str(results))
 
-# Savinf results as a JSON file
+# Saving results as a JSON file
 with open('results.json', 'w') as f:
   json.dump(results, f, indent=4)
 
